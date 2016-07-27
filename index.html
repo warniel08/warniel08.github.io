@@ -3,24 +3,33 @@
 	<head>
 		<title>Paris Website</title>
 		<link rel="stylesheet" type="text/css" href="styles.css">
+		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Tangerine">
 	</head>
+
 	<body>
-		<img src="fontaine_des_fleuves.jpg" width="264" height="352" alt="Fontaine des Fleuves">
-		<img src="palais_royal.jpg" width="352" height="264" alt="Palais Royal">
-		<img src="notre_dame.jpg" width="264" height="352" alt="Notre Dame">
-		<p>All images used by permission of Warner Nielsen</p>
+		<div class="images">
+			<img src="fontaine_des_fleuves.jpg" width="264" height="352" alt="Fontaine des Fleuves" id="fontaine">
+			<img src="palais_royal.jpg" width="352" height="264" alt="Palais Royal" id="palais">
+			<img src="notre_dame.jpg" width="264" height="352" alt="Notre Dame" id="cathedral">
+		</div>
+		
+		<p class="image-caption">All images used by permission of Warner Nielsen</p>
+
+		<h1 id="page-title">Paris Je t'aime!</h1>
 		
 		<div>
-			<h1>Paris Je t'aime!</h1>
 			<h3>Why do I love Paris?</h3>
-			<p>I love Paris and all it has to offer-from food to architecture, art to fashion-Paris has it all.</p>
+			<p>I love Paris and all it has to offer. From food to architecture, art to fashion; Paris has it all.</p>
 			<p>Here is one of my favorite quotes about Paris:</p>
 		</div>
 		
-		<blockquote cite="http://thecultureur.com/25-favorite-quotes-about-paris/">
-  			<p>If you are lucky enough to have lived in Paris as a young man, then wherever you go for the rest of your life it stays with you, for Paris is a moveable feast. <strong>-Ernest Hemingway</strong></p>
-		</blockquote>
-		
+		<div>
+			<blockquote cite="http://thecultureur.com/25-favorite-quotes-about-paris/">
+  				If you are lucky enough to have lived in Paris as a young man, then wherever you go for the rest of your life it stays with you, for Paris is a moveable feast. 
+  					<cite>Ernest Hemingway</cite>
+			</blockquote>
+		</div>
+
 		<div>
 			<p>Some of my favorite sites to see in Paris include:</p>
 			<ul>
@@ -29,12 +38,19 @@
 						<li>My favorite cathedral</li>
 					</ul>
 				<li>The Louvre Museum</li>
+					<ul>
+						<li>The biggest museum I've ever been in</li>
+							<ul>
+								<li>I love the Mona Lisa</li>
+							</ul>
+					</ul>
 				<li>Tuileries Garden</li>
 				<li>Sacre Coeur</li>
 			</ul>
 		</div>
 
 		<p>A couple of more places I like to visit and why:</p>
+
 		<table border="1">
 			<tr>
 				<th>Place</th>
@@ -53,27 +69,37 @@
 				<td>Play frisbee in front of the Eiffel Tower</td>
 			</tr>
 		</table>
+
 		<p>What is your favorite part about Paris? Here is your chance to tells us about it.</p>
+		
 		<form name="success" action="success.html" method="get">
-		<div>
-			<label>Favorite Place:</label>
-			<select name="favorite">
-				<option value="eiffel_tower">Eiffel Tower</option>
-				<option value="sacre_coeur">Sacre Coeur</option>
-				<option value="louvre">The Louvre</option>
-				<option value="other">Other</option>
-			</select>
-		</div>
-		<div>
-			<textarea name="other" cols="50" rows="15">If you chose Other, tell us what you would have picked</textarea>
-		</div>
-		<div>
-			<label>Date You Plan to Go:</label>
-			<input type="date" name="date">
-		</div>
-		<button type="submit">Submit</button>
+		
+			<div>
+				<label>Favorite Place:</label>
+				<select name="favorite">
+					<option value="eiffel_tower">Eiffel Tower</option>
+					<option value="sacre_coeur">Sacre Coeur</option>
+					<option value="louvre">The Louvre</option>
+					<option value="other">Other</option>
+				</select>
+			</div>
+			<div>
+				<textarea name="other" cols="50" rows="15">If you chose Other, tell us what you would have picked</textarea>
+			</div>
+		
+			<div>
+				<label>Date You Plan to Go:</label>
+				<input type="date" name="date">
+			</div>
+		
+			<button type="submit">Submit</button>
+		
 		</form>
+		
 		<p>I really liked <a href="http://www.parisperfect.com/blog/" >this</a> website about Paris. I like the organization and flow. Their use of pictures is great and they center them well. There's not too much text but just enough. Part of it feels a bit cluttered, especially the left hand side of the page. I also don't really like the huge picture at the top of the page. It could be smaller.</p>
-		<header><a href="about_me.html">About Me</a></header>
+		
+		<footer id="footer">
+			<p id="about_me">For more information <a href="about_me.html">About Me</a></p>
+		</footer>
 	</body>
 </html>
