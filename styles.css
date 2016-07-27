@@ -1,3 +1,77 @@
 body {
-	background: blue
+	background-image: url(solid.png);
+	background-color: #f2f4f5;
+	font-family: Helvetica;
+}
+
+.image-caption {
+	font-size: .8em;
+	text-align: right;
+	margin-right: 300px;
+}
+
+.images {
+	width: 960px;
+	margin: auto;
+	padding-top: 20px;
+	padding-left: 30px;
+	padding-bottom: 20px;
+	border: 1px solid;
+	border-top: 10px solid gray;
+	background-color: #f2f4f5;
+	
+}
+
+#fontaine {
+	position: relative;
+	margin-right: 20px;
+}
+
+#palais {
+	position: relative;
+	top: -20px;
+}
+
+#cathedral {
+	position: relative;
+	margin-left: 20px;
+}
+
+#page-title {
+	font-family: 'Tangerine';
+	font-size: 5em;
+	margin-bottom: 0px;
+}
+
+#footer {
+	padding-top: 5	px;
+	border: 1px solid;
+	border-top: 10px solid gray;
+	width: 300px;
+	margin: 0px auto;
+	padding-left: 60px;
+	background-color: #f2f4f5;
+}
+
+blockquote {
+  background-color: #f2f4f5;
+  border-left: 10px solid gray;
+  margin: 30px 50px;
+  margin-right: 150px;
+  padding: 10px 10px;
+}
+
+blockquote cite {
+	display: block;
+	font-weight: bold;
+	margin-top: 5px;
+	margin-left: 15px;
+}
+
+table {
+	background-color: #f2f4f5;
+}
+
+a:visited {
+	color: #de6123;
 }
