@@ -42,15 +42,15 @@ body {
 	font-size: 5em;
 	margin-bottom: 0px;
 	width: 500px;
-	margin: 0px auto;
+	margin: auto;
 }
 
 #footer {
-	padding-top: 5	px;
+	padding-top: 3px;
 	border: 1px solid;
 	border-top: 10px solid gray;
 	width: 300px;
-	margin: 0px auto;
+	margin: auto;
 	padding-left: 60px;
 	background-color: #f2f4f5;
 }
@@ -82,4 +82,15 @@ a:visited {
 	h1#page-title {
 		font-size: 7vmax;
 	}
+}
+
+#favorite {
+	display: inline-block;
+	margin-bottom: 12px;
+}
+
+#date {
+	display: inline-block;
+	margin-top: 12px;
+	margin-bottom: 12px;
 }
