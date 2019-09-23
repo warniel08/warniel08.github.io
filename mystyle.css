@@ -1,0 +1,18 @@
+body { 
+  font-family: 'Ubuntu', sans-serif;
+}
+
+div.text { 
+  text-align: center;
+  margin: 70px 200px 70px 200px;
+  border: 2px solid;
+  border-radius: 5px;
+}
+
+a { 
+  text-decoration: none;
+}
+
+#MSD { 
+  color: red;
+}
