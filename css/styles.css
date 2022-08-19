@@ -1,3 +1,11 @@
 body {
   font-family: 'Source Code Pro', monospace;
+  color: red;
+}
+
+div.text {
+  text-align: center;
+  margin: 70px 200px 70px 200px;
+  border: 2px solid;
+  border-radius: 5px;
 }
